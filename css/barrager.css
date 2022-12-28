@@ -31,6 +31,12 @@
     height: 100%;
 }
 
+/* 添加背景像素纹*/
+.bg-cover::before {
+    background-image: url('https://ilovecccc.oss-cn-hangzhou.aliyuncs.com/img/202212282125342.jpg');
+}
+
+
 .barrage_box div.p a {
     margin-right: 2px;
     font-size: 14px;
